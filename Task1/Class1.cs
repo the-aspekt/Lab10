@@ -66,5 +66,9 @@ namespace Task1
             rad = (gradus + Math.Sign(gradus) * min / 60.0 + Math.Sign(gradus) * sec / 3600.0) / 180 * Math.PI;
             return rad;
         }
+        public void Print()
+        {
+            Console.WriteLine(@"Задан угол {0}°{1}'{2}''", gradus, min, sec);
+        }
     }
 }

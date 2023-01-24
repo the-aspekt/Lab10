@@ -20,6 +20,7 @@ namespace Task1
                 angle.Min = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine("Введите секунды");
                 angle.Sec = Convert.ToInt32(Console.ReadLine());
+                angle.Print();
                 angle.ToRadians();
 
             }
